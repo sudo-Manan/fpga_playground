@@ -1,0 +1,37 @@
+# Ignoring Visual Studio Code workspace files
+*.vscode
+.vscode/
+*.code-workspace
+
+# Simulation
+*.vcd
+*.fst
+*.lxt
+*.sdf
+
+# Vivado
+*.jou
+*.log
+.Xil/
+vivado*.str
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.ipdefs/
+*.xpr
+utils_1/
+*.srcs/utils_1/
+*.str
+*.svg
+
+# Questa/ModelSim
+work/
+transcript
+vsim.wlf
+*.ucdb
+
+# OS
+.DS_Store
+Thumbs.db
